@@ -1,0 +1,255 @@
+{
+  "query": {
+    "market": "UK",
+    "currency": "USD",
+    "locale": "en-gb",
+    "adults": 1,
+    "child_ages": [ ],
+    "children": 0,
+    "infants": 0,
+    "cabin_class": "economy",
+    "prefer_directs": false,
+    "legs": [
+      {
+        "origin": 17567,
+        "destination": 6781,
+        "date": "2017-03-30"
+      }
+    ]
+  },
+  "context": {
+    "request_id": "17f01f1d-8836-45ae-db81-0280cd450c6d",
+    "session_id": "613552e7-71bf-408d-8995-673c55d291c8"
+  },
+  "itineraries": [
+    {
+      "id": "17567-1703301050--31915-0-10525-1703301240",
+      "leg_ids": [ "17567-1703301050--31915-0-10525-1703301240" ],
+      "pricing_options": [
+        {
+          "agent_ids": [ "ryan" ],
+          "price": {
+            "amount": 42.15,
+            "update_status": "current",
+            "last_updated": "2016-12-10T16:32:38",
+            "quote_age": 3.0
+          },
+          "items": [
+            {
+              "agent_id": "ryan",
+              "url": "/transport_deeplink/4.0/UK/en-gb/USD/ryan/1/17567.10525.2017-03-30/air/airli/flights?itinerary=flight|-31915|9398|17567|2017-03-30T10:50|10525|2017-03-30T12:40&carriers=-31915&passengers=1&channel=website&cabin_class=economy&facilitated=false&ticket_price=42.15&is_npt=false&is_multipart=false&client_id=skyscanner_website&request_id=17f01f1d-8836-45ae-db81-0280cd450c6d&commercial_filters=false&q_datetime_utc=2016-12-10T16:32:38",
+              "price": {
+                "amount": 42.15,
+                "update_status": "current",
+                "last_updated": "2016-12-10T16:32:38",
+                "quote_age": 3.0
+              },
+              "segment_ids": [ "17567-10525-1703301050-1703301240--31915" ]
+            }
+          ]
+        },
+        {
+          "agent_ids": [ "sasa" ],
+          "price": { "update_status": "current" },
+          "unpriced_type": "itinerary_not_returned",
+          "items": [
+            {
+              "agent_id": "sasa",
+              "url": "/transport_deeplink/4.0/BY/en-us/USD/sasa/1/17567.11493.2017-03-30/air/airli/flights_np?itinerary=flight|-31901|739|17567|2017-03-30T18:20|9547|2017-03-30T18:40;flight|-31901|1841|9547|2017-03-31T08:25|11493|2017-03-31T11:35&carriers=-31901&passengers=1&channel=website&cabin_class=economy&facilitated=false&is_npt=false&is_multipart=false&client_id=skyscanner_website&request_id=5767dee9-a9e8-467b-8685-f971b947ac24",
+              "price": { "update_status": "current" },
+              "segment_ids": [ "17567-9547-1703301820-1703301840--31901", "9547-11493-1703310825-1703311135--31901" ]
+            }
+          ]
+        }
+      ],
+      "score": 10.0
+    }
+  ],
+  "legs": [
+    {
+      "id": "17567-1703301050--31915-0-10525-1703301240",
+      "origin_place_id": 17567,
+      "destination_place_id": 10525,
+      "departure": "2017-03-30T10:50:00",
+      "arrival": "2017-03-30T12:40:00",
+      "segment_ids": [ "17567-10525-1703301050-1703301240--31915" ],
+      "duration": 170,
+      "stop_count": 0,
+      "marketing_carrier_ids": [ -31915 ],
+      "operating_carrier_ids": [ -31915 ]
+    }
+  ],
+  "segments": [
+    {
+      "id": "17567-10525-1703301050-1703301240--31915",
+      "origin_place_id": 17567,
+      "destination_place_id": 10525,
+      "departure": "2017-03-30T10:50:00",
+      "arrival": "2017-03-30T12:40:00",
+      "duration": 170,
+      "marketing_flight_number": "9398",
+      "marketing_carrier_id": -31915,
+      "operating_carrier_id": -31915,
+      "mode": "flight"
+    }
+  ],
+  "places": [
+    {
+      "id": 17567,
+      "alt_id": "VNO",
+      "parent_id": 8233,
+      "name": "Vilnius",
+      "type": "Airport",
+      "display_code": "VNO"
+    }
+  ],
+  "carriers": [
+    {
+      "id": -31915,
+      "name": "Ryanair",
+      "alt_id": "FR",
+      "display_code": "FR",
+      "display_code_type": "IATA",
+      "show_logo": false
+    }
+  ],
+  "agents": [
+    {
+      "id": "omeg",
+      "name": "omegaflightstore.com",
+      "is_carrier": false,
+      "update_status": "current",
+      "optimised_for_mobile": false,
+      "show_logo": true,
+      "live_update_allowed": true,
+      "rating_status": "available",
+      "rating": 3.22,
+      "feedback_count": 28570,
+      "rating_breakdown": {
+        "reliable_prices": 2.8497,
+        "clear_extra_fees": 4.752332,
+        "customer_service": 3.515864,
+        "ease_of_booking": 4.296228,
+        "other": 2.45814
+      }
+    }
+  ],
+  "stats": {
+    "itineraries": {
+      "min_duration": 170,
+      "max_duration": 1935,
+      "min_longest_itinerary_leg_duration": 170,
+      "max_longest_itinerary_leg_duration": 1935,
+      "total": {
+        "count": 134,
+        "min_price": 42.15
+      },
+      "stops": {
+        "direct": {
+          "total": {
+            "count": 1,
+            "min_price": 42.15
+          },
+          "ticket": {
+            "single_ticket": {
+              "count": 1,
+              "min_price": 42.15
+            },
+            "multi_ticket_non_npt": { "count": 0 },
+            "multi_ticket_npt": { "count": 0 }
+          }
+        },
+        "one_stop": {
+          "total": {
+            "count": 49,
+            "min_price": 78.78
+          },
+          "ticket": {
+            "single_ticket": {
+              "count": 49,
+              "min_price": 78.78
+            },
+            "multi_ticket_non_npt": { "count": 0 },
+            "multi_ticket_npt": { "count": 0 }
+          }
+        },
+        "two_plus_stops": {
+          "total": {
+            "count": 84,
+            "min_price": 148.58
+          },
+          "ticket": {
+            "single_ticket": {
+              "count": 84,
+              "min_price": 148.58
+            },
+            "multi_ticket_non_npt": { "count": 0 },
+            "multi_ticket_npt": { "count": 0 }
+          }
+        }
+      },
+      "has_change_airport_transfer": true
+    },
+    "legs": [
+      {
+        "index": 1,
+        "min_duration": 170,
+        "max_duration": 1935,
+        "count": 134,
+        "origins": [
+          {
+            "id": 17567,
+            "count": 134
+          }
+        ],
+        "destinations": [
+          {
+            "id": 11493,
+            "count": 133
+          },
+          {
+            "id": 10525,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "carriers": {
+      "single_carriers": [
+        {
+          "id": -31915,
+          "count": 1,
+          "min_price": 42.15
+        }
+      ],
+      "multiple_carriers": {
+        "count": 85,
+        "min_price": 115.0
+      }
+    },
+    "filter_hints": {
+      "enable_direct_filter": true,
+      "enable_one_stop_filter": true,
+      "enable_two_plus_stops_filter": true,
+      "check_direct_filter": true,
+      "check_one_stop_filter": true,
+      "check_two_plus_stops_filter": true,
+      "show_npt_filter": false,
+      "check_npt_filter": false
+    }
+  },
+  "flights_availability": {
+    "leg1": [
+      {
+        "date": "2017-03-23",
+        "availability": "direct"
+      },
+      {
+        "date": "2017-03-26",
+        "availability": "indirect"
+      }
+    ],
+    "direct_exists": true,
+    "alternatives_exist": true
+  }
+}

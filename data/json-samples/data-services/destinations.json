@@ -1,0 +1,25 @@
+{
+	"Routes": [{
+			"RouteId": 1,
+			"OriginId": "VNO",
+			"DestinationId": "MN",
+			"Direct": false,
+			"PopularityRank": 0
+		}
+	],
+	"Places": [{
+			"PlaceId": "AE",
+			"Name": "United Arab Emirates",
+			"Type": "Country"
+		}, {
+			"PlaceId": "ARN",
+			"IataCityCode": "STO",
+			"IataAirportCode": "ARN",
+			"Name": "Stockholm Arlanda",
+			"CityName": "Stockholm",
+			"CountryName": "Sweden",
+			"Type": "Station",
+			"CityId": "STOC"
+		}
+	]
+}
