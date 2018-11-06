@@ -3,4 +3,4 @@ framework: net452
 
 nuget FSharp.Data
 nuget Newtonsoft.Json
-nuget Canopy
+nuget PetaPoco.Core.Compiled

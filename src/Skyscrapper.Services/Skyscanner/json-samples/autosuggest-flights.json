@@ -1,0 +1,18 @@
+[{
+		"PlaceId": "MILA",
+		"PlaceName": "Milan",
+		"LocalizedPlaceName": "",
+		"CountryId": "IT",
+		"CityId": "MILA",
+		"CountryName": "Italy",
+		"PlaceNameEn": "",
+		"RegionId": "",
+		"CityName": "Milan",
+		"CityNameEn": "",
+		"GeoId": "27544068",
+		"GeoContainerId": "27544068",
+		"Location": "45.464273,9.189506",
+		"ResultingPhrase": "Milan|Milan|Lombardy|Italy",
+		"Highlighting": [[0, 2], [6, 8]]
+	}
+]

@@ -1,16 +1,12 @@
-﻿namespace Skyscrapper.Notifier
+﻿namespace Skyscrapper.Services
 open FSharp.Data
 
-module private GooglPrivates = 
-    let apiKey = ""
-    type Response = JsonProvider<"""{"kind": "text", "id": "text"}""">
-
-open GooglPrivates
-
 [<RequireQualifiedAccess>]
-module Googl = 
-    let shortenUrl url =
-        let serviceUrl = sprintf "https://www.googleapis.com/urlshortener/v1/url?key=%s"  apiKey
+module GooglClient = 
+    type private Response = JsonProvider<"""{"kind": "text", "id": "text"}""">
+
+    let shortenUrl apiKey url =
+        let serviceUrl = sprintf "https://www.googleapis.com/urlshortener/v1/url?key=%s" apiKey
         let response = 
             Http.RequestString (
                 url = serviceUrl, 

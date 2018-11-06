@@ -1,4 +1,4 @@
-﻿namespace Skyscrapper.DataServices.AssemblyInfo
+﻿namespace Storage.AssemblyInfo
 
 open System.Reflection
 open System.Runtime.CompilerServices
@@ -7,12 +7,12 @@ open System.Runtime.InteropServices
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[<assembly: AssemblyTitle("Skyscrapper.DataServices")>]
+[<assembly: AssemblyTitle("Skyscrapper.Data")>]
 [<assembly: AssemblyDescription("")>]
 [<assembly: AssemblyConfiguration("")>]
 [<assembly: AssemblyCompany("")>]
-[<assembly: AssemblyProduct("Skyscrapper.DataServices")>]
-[<assembly: AssemblyCopyright("Copyright ©  2016")>]
+[<assembly: AssemblyProduct("Skyscrapper.Data")>]
+[<assembly: AssemblyCopyright("Copyright ©  2018")>]
 [<assembly: AssemblyTrademark("")>]
 [<assembly: AssemblyCulture("")>]
 
@@ -22,7 +22,7 @@ open System.Runtime.InteropServices
 [<assembly: ComVisible(false)>]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[<assembly: Guid("0f7b8e8a-4313-4eff-9112-9905112e1a1b")>]
+[<assembly: Guid("8294d236-19ad-48d6-861a-4b976f0be5cc")>]
 
 // Version information for an assembly consists of the following four values:
 // 
