@@ -46,7 +46,7 @@ module Itineraries =
                 url, 
                 ("$.itineraries", 15, 20), 
                 ["$.itineraries"; "$.agents"; "$.places"; "$.segments"],
-                (100, 200),
+                (1000, 1700),
                 payload = body,
                 additionalHeaders = [
                     "x-skyscanner-channelid", "website";
